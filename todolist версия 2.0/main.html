@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Список задач</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/body_style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<body>
+		<div id="todo">
+			<h1 class="todo__title">Список дел</h1>
+				<input type="text" class="toDoText" placeholder="Новая задача">
+		</div>
+		<ul class="todos">
+		</ul>
+		<div id="buttons">
+			<button class="save">Сохранить</button>
+			<button class="clear">Очистить</button>
+			<button class="showTips">Справка</button>
+		</div>
+		<div id = "overlay">
+			<ul class="tips">
+				<li>Для добавления списка дел напишите текст в поле ввода и нажмите Ввод</li>
+				<li>Чтобы удалить один пункт, наведите на него и нажмите на кнопку "Удалить"</li>
+				<li>Чтобы удалить все списки дел, нажмите "Очистить"</li>
+				<li>Чтобы отметить задачу как выполненную, нажмите на нее 1 раз</li>
+				<li>Нажмите "Сохранить", чтобы сохранить список дел на потом</li>
+			</ul>
+			<button class="closeTips">Закрыть</button>
+		</div>
+		<script src="js/body_arr.js"> </script>
+	</body>
+</html>

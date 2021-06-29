@@ -1,0 +1,90 @@
+html {
+	min-height: 100vh;
+	background-image: radial-gradient(circle, DeepSkyBlue 0%, Turquoise 45%, Black 100%);
+	background-repeat: no-repeat;
+}
+body { 
+	text-align: center;
+	margin: 10;
+	font-family: Trattatello, fantasy;
+	font-style: oblique;
+	font-size: 16px;
+}
+input { 
+	display: inline-block;
+	margin: 20px auto;
+	border: 2px solid #eee;
+	padding: 10px 20px;
+	font-family: 'Lobster', cursive;
+	font-size: 16px; 
+}
+.todo__title {
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+}
+li { 
+	box-shadow: 2px 2px 2px 1px black;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5px;
+	width: 40%;
+	list-style-type: none;
+	text-align: center;
+	padding: 20px;
+	cursor: default;
+	border-radius: 7px;
+    border: 1px solid #000; 
+	background-color: #fff;
+}
+li:hover { 
+	background-color: lightblue; 
+}
+li.checked {
+	background-color: green;
+	opacity: 0.5;
+}
+span.todo-text {
+	padding: 5px;
+	flex-grow: 5;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+}
+button.todo-trash {
+	height: 3em;
+	font-family: 'Lobster', cursive;
+	font-style: oblique;
+	flex-grow: 1;
+	color: white;
+	text-align: center;
+	margin: 5px;
+	border-radius: 18px;
+    border: 3px solid Aquamarine;
+}
+ul {
+	padding: 0;
+	left: 50%;
+}
+button {
+	width: 7em;
+	height: 3em;
+	font-family: 'Lobster', cursive;
+	font-size: 1em;
+	margin: 5px;
+	color: white;
+	background-image: linear-gradient(to bottom, #57b, #148);
+	box-shadow: 1px 1px 5px #124;
+	border-radius: 7px;
+    border: 1px solid Aquamarine;
+}
+select {
+	flex-grow: 1;
+}
+div#overlay {
+	display: none;
+}
+div#buttons {
+	margin: 5px;
+}
